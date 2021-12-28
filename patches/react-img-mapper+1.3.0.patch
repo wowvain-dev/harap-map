@@ -1,0 +1,14 @@
+diff --git a/node_modules/react-img-mapper/dist/types.d.ts b/node_modules/react-img-mapper/dist/types.d.ts
+index 2d2d950..98610df 100644
+--- a/node_modules/react-img-mapper/dist/types.d.ts
++++ b/node_modules/react-img-mapper/dist/types.d.ts
+@@ -3,7 +3,8 @@ export interface Container extends HTMLDivElement {
+     clearHighlightedArea: () => void;
+ }
+ export interface MapAreas {
+-    id?: string;
++    id?: number;
++    description?: string;
+     shape: string;
+     coords: number[];
+     active?: boolean;
