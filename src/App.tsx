@@ -2,9 +2,12 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MainMap from './mapping/MainMap'
+import { useState } from "react";
+import {GlobalStyles} from "./globalStyles";
+import ReactModal from "react-modal";
 
 function App() {
-  return (
+    return (
     <div className="App">
         <nav className="navbar navbar-light bg-light">
             <div className="container-fluid">
@@ -13,7 +16,7 @@ function App() {
                 </a>
             </div>
         </nav>
-     <MainMap/>
+    <MainMap/>
     </div>
   );
 }
