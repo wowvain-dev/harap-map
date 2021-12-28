@@ -5,8 +5,6 @@ import jsonData from './areas.json'
 import "./MainMap.css"
 import { GlobalStyles } from "../globalStyles";
 
-const loadData = JSON.parse(JSON.stringify(jsonData));
-
 const MainMap = () => {
     let showModal: boolean;
     let setShowModal: any;
@@ -23,8 +21,9 @@ const MainMap = () => {
     };
 
     interface MapAreas {
-        id?: string;
+        id?: number;
         shape: string;
+        description?: string;
         coords: number[];
         active?: boolean;
         disabled?: boolean;
@@ -39,7 +38,7 @@ const MainMap = () => {
         center?: [number, number];
     }
 
-    const [ currentArea, setCurrentArea ] = useState<CustomArea>( {coords: [], scaledCoords: [], shape: "", "id":"default"} );
+    const [ currentArea, setCurrentArea ] = useState<CustomArea>( {coords: [], scaledCoords: [], shape: "", "description": "Harta"} );
 
     return (
         <div className="container-fluid mainMap">
