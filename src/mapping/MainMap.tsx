@@ -4,6 +4,7 @@ import { CustomModal } from "../components/modal";
 import jsonData from './areas.json'
 import "./MainMap.css"
 import { GlobalStyles } from "../globalStyles";
+import "path";
 
 const MainMap = () => {
     let showModal: boolean;
@@ -14,7 +15,7 @@ const MainMap = () => {
         setShowModal((prev:any) => !prev);
     }
 
-    const IMG = "http://www.bjbv.ro/concurs/harta.jpg";
+    const IMG = "../../assets/unknown.png";
     const MAP = {
         name: 'main-map',
         areas: jsonData
