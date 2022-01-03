@@ -16,7 +16,7 @@ function App() {
                 </a>
             </div>
         </nav>
-    <MainMap/>
+    <MainMap />
     </div>
   );
 }

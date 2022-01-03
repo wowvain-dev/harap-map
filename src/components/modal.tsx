@@ -6,13 +6,23 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+`
+
+const Description = styled.h6`
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 `
 
 const customStyles = {
     content: {
         zIndex: 1,
         borderRadius: 10,
-        width: '70%',
+        width: '45%',
         height: '75%',
         top: '50%',
         left: '50%',
@@ -20,12 +30,12 @@ const customStyles = {
         bottom: 'auto',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
+        overflow: 'hidden'
     },
 };
 
 // @ts-ignore
 export const CustomModal = ({ showModal, setShowModal, currentArea }) => {
-
     return (
         <Container>
             <Modal
@@ -33,11 +43,21 @@ export const CustomModal = ({ showModal, setShowModal, currentArea }) => {
                 style={customStyles}
             >
                 <h2 className='text-center'> {currentArea.title} </h2>
-                <h6 className="mt-3 ms-4 me-4 mb-3">
-                    {currentArea.description}
-                </h6>
+                <div style={{
+                    height: '85%'
+                }}>
+                    <Description className="mt-3 ms-4 me-4 mb-3">
+                        {currentArea.description}
+                    </Description>
+                </div>
                 <Container>
-                    <button className="btn btn-dark" onClick={() => { setShowModal((prev: any) => !prev) }}>Închide</button>
+                    <button className="btn btn-dark"
+                            onClick={
+                                () => { setShowModal((prev: any) => !prev) }
+                            }
+                    >
+                        Închide
+                    </button>
                 </Container>
             </Modal>
         </Container>
