@@ -41,12 +41,92 @@
   },
   {
     "id": 5,
-    "title": "",
+    "title": "Împărăția lui Verde-Împărat",
     "shape": "poly",
     "strokeColor": "black",
-    "description": "",
+    "description": "Ajuns la împărăție, însă cu un statut total diferit față de cel la care se aștepta, fiul craiului se întâlnește cu unchiul său. Spânul se preface a fi fiul Craiului și este bine primit de Împărat. Harap-Alb primește mai multe porunci de la Spân.",
     "coords": [
-
+       366,202,420,187,452,155,456,139,525,132,526,120,517,114,514,91,565,3,609,82,642,46,707,139,745,43,789,124,792,182,792,183,831,244,848,243,849,263,832,269,829,367,794,380,749,398,725,394,724,406,678,406,669,395,581,395,565,409,530,408,522,398,472,394,454,382,425,374,417,222,405,220,379,217
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Proba salăților și proba nestematelor din fruntea cerbului",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Prima probă primită la împărăția de Harap-Alb a fost să se ducă în Grădina Ursului pentru a căpăta niște salăți. Eroul s-a dus în grădină îmbrăcat în pielea de de urs, și, așa cum a fost sfătuit de Sfânta Duminică, a început să culeagă până când s-a trezit ursul, moment în care a aruncat pielea pe el și a fugit.",
+    "coords": [
+       409,426,422,383,442,389,447,418,466,422,473,480,408,501,361,472,285,511,234,471,240,422,299,409,360,451
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Ajutoarele lui Harap-Alb",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Pe drumul către Împăratul Roș, Harap-Alb a dobândit ajutoare de nădejde, printre care se numără: Ochilă, Setilă, Flămânzilă, Păsărilă și Gerilă. Ochilă avea o vedere foarte bună. Aceasta le-a fost de folos atunci când fata împăratului s-a prefăcut într-o pasăre și a fugit pe geamul camerei acesteia. Flămânzilă și Setilă au darul de a mânca și bea orice fără limită. La curtea Împăratului Roș, aceștia au mâncat și băut toată mâncarea rămasă după ce au mâncat ceilalți. Păsărilă putea să se lungească atât de mult, încât a reușit să o prindă pe prințesa prefăcută în pasăre. Gerilă, atunci când ceilalți nu îl ascultau, a pus un strat de gheață gros pe pereții încăperii în care au dormit la Împăratul Roș, aceștia înghețând de frig.",
+    "coords": [
+       266,676,319,704,724,694,725,546,698,504,632,511,626,456,582,457,570,541,542,541,536,512,490,517,435,523,417,550,375,543,362,526,332,532
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Furnicile și albinele",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Harap-Alb, pe drumul spre Împăratul Roș, a ocolit o nuntă de furnici de pe un pod ce trecea peste apă ca să nu le omoare. De asemenea, a realizat un cuib unor albine care aveau nevoie de unul. Fiindu-i recunoscătoare, cele două grupuri de insecte i-au promis că îl vor ajuta la nevoie, dându-i câte o aripă.",
+    "coords": [
+       663,422,667,469,749,461,798,494,842,486,859,453,823,415
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Calul lui Harap-Alb și turturica fetei Împăratului Roș",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Înainte de a ajunge pleca la Verde-Împărat, viitoarea împărăteasă i-a rugat pe calul lui Harap-Alb și pe turturica ei să facă rost de trei smicele de măr dulce, apă vie și apă moartă de unde se bat munții în capete, iar dacă turturica s-ar fi întors înaintea calului, atunci fata nu ar mai fi venit cu Harap-Alb.",
+    "coords": [
+      1190,1065,1189,872,1262,786,1298,718,1366,716,1377,790,1411,817,1597,826,1613,899,1409,918,1363,1053
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Încălcarea jurământului",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Povestea se încheie cu Harap-Alb și fiica Împăratului Roș care au ajuns la Împăratul Verde. Atunci când fata i-a mărturisit faptul că Harap-Alb este adevăratul fiu al Craiului, Spânul i-a tăiat capul, deoarece a încălcat jurământul de a nu spune nimănui cine este cu adevărat.",
+    "coords": [
+       1097,703,1214,703,1205,535,1161,537,1135,507,1106,516
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Atacul calului lui Harap-Alb",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Calul, văzându-și stăpânul atacat de Spân, l-a făcut praf și pulbere pe acesta.",
+    "coords": [
+       1476,493,1431,792,1561,768,1626,681,1731,700,1729,776,1878,817,1917,626,1794,450,1714,476,1674,551,1573,530
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Cele trei smicele de măr, apa vie și apa moartă",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "Pentru a-l readuce la viață pe Harap-Alb, fata Împăratului Roș l-a înconjurat pe Harap-Alb cu cele trei smicele de măr și a turnat apă moartă și apă vie pe acesta.",
+    "coords": [
+       1313,470,1435,556,1542,375,1520,243,1397,247,1344,284
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Nunta",
+    "shape": "poly",
+    "strokeColor": "black",
+    "description": "După luptele de la sosirea lui Harap-Alb și a viitoarei Împărătese, avut loc nunta celor doi. La aceasta au participat Crăiasa furnicilor, Crăiasa albinelor, Crăiasa zânelor și mulți alți crai și împărați.",
+    "coords": [
+       1053,36,1019,167,1034,188,1038,266,1047,290,1085,284,1106,289,1248,293,1252,192,1212,190,1201,73,1176,26
     ]
   }
 ]
