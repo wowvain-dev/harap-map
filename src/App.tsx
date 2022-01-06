@@ -34,19 +34,34 @@ function App() {
             </div>
         </nav>
     <MainMap />
-    <h4 className="mt-5 text=sm-center">Personajele basmului</h4>
+    <h4 className="mt-5 mb-5 text=sm-center">Personajele basmului</h4>
     <Center>
         <Box sx={{ flexGrow: 1 }}>
             <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} direction="row"
                   justifyContent="center" alignItems="center">
-                <Grid item xs={'auto'} >
+                <Grid item xs={8} md={1}>
                     <Item>
-                        Craiul
-                        <img src="../assets/harap-alb.png" alt="lmao"/>
+                        Craiul <br/>
+                        <img style={{
+                            width: "100%",
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/craiul.png?raw=true" alt="lmao"/>
                     </Item>
                 </Grid>
-                <Grid item xs={2} >
-                    <Item>xs=6 md=4</Item>
+                <Grid item xs={8} md={1} >
+                    <Item>
+                        Harap-Alb <br/>
+                        <img style={{
+                            width: '56%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/harap-alb.png?raw=true"/>
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Fratele Mijlociu <br/>
+                        <img style={{
+                            width: '56%',
+                        }} src="" />
+                    </Item>
                 </Grid>
             </Grid>
         </Box>
