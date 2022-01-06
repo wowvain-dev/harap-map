@@ -34,11 +34,12 @@ function App() {
             </div>
         </nav>
     <MainMap />
-    <h4 className="mt-5 mb-5 text=sm-center">Personajele basmului</h4>
+    <h4 className="mt-5 mb-5 text=sm-center">Personajele basmului (prezente în ilustrația de mai sus)</h4>
     <Center>
-        <Box sx={{ flexGrow: 1 }}>
-            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} direction="row"
-                  justifyContent="center" alignItems="center">
+        <Box>
+            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+                  direction="row" justifyContent="center" alignItems="center"
+                  columns={7} style={{width: '75%', marginLeft: '12.5%'}}>
                 <Grid item xs={8} md={1}>
                     <Item>
                         Craiul <br/>
@@ -63,7 +64,6 @@ function App() {
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fiu-mijlociu.png?raw=true" />
                     </Item>
                 </Grid>
-
                 <Grid item xs={8} md={1}>
                     <Item>
                         Fiul cel mare <br/>
@@ -72,7 +72,6 @@ function App() {
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fiul-mare.png?raw=true"/>
                     </Item>
                 </Grid>
-
                 <Grid item xs={8} md={1}>
                     <Item>
                         Sfanta Duminica <br/>
@@ -81,12 +80,55 @@ function App() {
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/sfanta-duminica.png?raw=true" />
                     </Item>
                 </Grid>
-
                 <Grid item xs={8} md={1}>
                     <Item>
                         Spanul <br/>
                         <img style={{
-                            width: '46%',
+                            width: '63%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Fomila <br/>
+                        <img style={{
+                            width: '78%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fomila.png?raw=true" />
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Ochilă <br/>
+                        <img style={{
+                            width: '63%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Spanul <br/>
+                        <img style={{
+                            width: '63%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Spanul <br/>
+                        <img style={{
+                            width: '63%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Spanul <br/>
+                        <img style={{
+                            width: '63%',
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
 
                     </Item>
