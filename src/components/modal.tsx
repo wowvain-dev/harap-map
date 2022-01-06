@@ -9,8 +9,8 @@ const Container = styled.div`
   overflow: hidden;
 `
 
-const Description = styled.h6`
-  font-size: 20px;
+const Description = styled.p`
+  font-size: 16px;
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);

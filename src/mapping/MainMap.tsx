@@ -45,7 +45,10 @@ const MainMap = () => {
             { !showModal ? <ImageMapper src={IMG} map={MAP} onClick={(area) => {
                 setCurrentArea(area);
                 openModal();
-            }} /> : null}
+            }} /> : <div style={{opacity: 0}}><ImageMapper src={IMG} map={MAP} onClick={(area) => {
+                setCurrentArea(area);
+                openModal();
+            }} /></div>}
             <CustomModal showModal={showModal} setShowModal={setShowModal} currentArea={currentArea}/>
             <GlobalStyles />
         </div>

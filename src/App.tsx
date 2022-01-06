@@ -37,7 +37,7 @@ function App() {
     <h4 className="mt-5 mb-5 text=sm-center">Personajele basmului (prezente în ilustrația de mai sus)</h4>
     <Center>
         <Box>
-            <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+            <Grid container rowSpacing={{ xs: 1, sm: 2, md: 3 }} columnSpacing={{ xs: 1, sm: 2, md: 3 }}
                   direction="row" justifyContent="center" alignItems="center"
                   columns={7} style={{width: '75%', marginLeft: '12.5%'}}>
                 <Grid item xs={8} md={1}>
@@ -58,7 +58,7 @@ function App() {
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Fiul Mijlociu <br/>
+                        Fiul mijlociu <br/>
                         <img style={{
                             width: '46%',
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fiu-mijlociu.png?raw=true" />
@@ -74,7 +74,7 @@ function App() {
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Sfanta Duminica <br/>
+                        Sfânta Duminică <br/>
                         <img style={{
                             width: '62%',
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/sfanta-duminica.png?raw=true" />
@@ -82,7 +82,7 @@ function App() {
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Spanul <br/>
+                        Spânul <br/>
                         <img style={{
                             width: '63%',
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
@@ -91,7 +91,7 @@ function App() {
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Fomila <br/>
+                        Fomilă <br/>
                         <img style={{
                             width: '78%',
                         }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fomila.png?raw=true" />
@@ -101,35 +101,34 @@ function App() {
                     <Item>
                         Ochilă <br/>
                         <img style={{
-                            width: '63%',
-                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+                            width: '45%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/ochila.png?raw=true" />
+                    </Item>
+                </Grid>
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Setilă <br/>
+                        <img style={{
+                            width: '60%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/setila.png?raw=true" />
 
                     </Item>
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Spanul <br/>
+                        Păsări - Lăți - Lungilă<br/>
                         <img style={{
                             width: '63%',
-                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/pasari-lati-lungila.png?raw=true" />
 
                     </Item>
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Spanul <br/>
+                        Gerilă <br/>
                         <img style={{
-                            width: '63%',
-                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
-
-                    </Item>
-                </Grid>
-                <Grid item xs={8} md={1}>
-                    <Item>
-                        Spanul <br/>
-                        <img style={{
-                            width: '63%',
-                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+                            width: '52%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/gerila.png?raw=true" />
 
                     </Item>
                 </Grid>
