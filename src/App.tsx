@@ -17,6 +17,7 @@ function App() {
             </div>
         </nav>
     <MainMap />
+    <h4 className="mt-5 text=sm-center">Personajele basmului</h4>
     </div>
   );
 }

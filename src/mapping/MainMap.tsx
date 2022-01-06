@@ -14,7 +14,7 @@ const MainMap = () => {
         setShowModal((prev:any) => !prev);
     }
 
-    const IMG = "https://github.com/wowvain-dev/harap-map/blob/master/assets/unknown.png?raw=true";
+    const IMG = "https://github.com/wowvain-dev/harap-map/blob/master/assets/harta_harap_alb9(1).png?raw=true"
     const MAP = {
         name: 'main-map',
         areas: jsonData
@@ -41,7 +41,7 @@ const MainMap = () => {
     const [ currentArea, setCurrentArea ] = useState<CustomArea>( {coords: [], scaledCoords: [], shape: "", "description": "Harta"} );
 
     return (
-        <div className="container-fluid mainMap mt-5">
+        <div style={{width: '75%', height: '60%'}} className="container-fluid mainMap mt-5">
             { !showModal ? <ImageMapper src={IMG} map={MAP} onClick={(area) => {
                 setCurrentArea(area);
                 openModal();
