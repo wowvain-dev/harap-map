@@ -57,10 +57,38 @@ function App() {
                 </Grid>
                 <Grid item xs={8} md={1}>
                     <Item>
-                        Fratele Mijlociu <br/>
+                        Fiul Mijlociu <br/>
                         <img style={{
-                            width: '56%',
-                        }} src="" />
+                            width: '46%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fiu-mijlociu.png?raw=true" />
+                    </Item>
+                </Grid>
+
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Fiul cel mare <br/>
+                        <img style={{
+                            width: '45%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/fiul-mare.png?raw=true"/>
+                    </Item>
+                </Grid>
+
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Sfanta Duminica <br/>
+                        <img style={{
+                            width: '62%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/sfanta-duminica.png?raw=true" />
+                    </Item>
+                </Grid>
+
+                <Grid item xs={8} md={1}>
+                    <Item>
+                        Spanul <br/>
+                        <img style={{
+                            width: '46%',
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/spanul.png?raw=true" />
+
                     </Item>
                 </Grid>
             </Grid>
