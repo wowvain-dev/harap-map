@@ -45,7 +45,7 @@ function App() {
                         Craiul <br/>
                         <img style={{
                             width: "100%",
-                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/craiul.png?raw=true" alt="lmao"/>
+                        }} src="https://github.com/wowvain-dev/harap-map/blob/master/assets/craiul.png?raw=true" alt="f"/>
                     </Item>
                 </Grid>
                 <Grid item xs={8} md={1} >

@@ -42,6 +42,7 @@ const MainMap = () => {
 
     return (
         <div style={{width: '75%', height: '60%'}} className="container-fluid mainMap mt-5">
+            <CustomModal showModal={showModal} setShowModal={setShowModal} currentArea={currentArea}/>
             { !showModal ? <ImageMapper src={IMG} map={MAP} onClick={(area) => {
                 setCurrentArea(area);
                 openModal();
@@ -49,7 +50,6 @@ const MainMap = () => {
                 setCurrentArea(area);
                 openModal();
             }} /></div>}
-            <CustomModal showModal={showModal} setShowModal={setShowModal} currentArea={currentArea}/>
             <GlobalStyles />
         </div>
     )
